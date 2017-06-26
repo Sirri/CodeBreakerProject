@@ -18,7 +18,7 @@ function setHiddenFields (){
   answer = answer.toString()
 
   while (answer.length < 4){
-    answer = "0" + answer;
+    answer = '0' + answer;
   }
   //set attemnts to 0
   attempt = 0;
